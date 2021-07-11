@@ -60,7 +60,7 @@ public IActionResult NotThrowingException()
 ## Vejamos os resultados
 
 ### BenchmarkDotNet
-![benchmark](images/benchmark.png)
+![benchmark](images/benchmark_dotnet.png)
 
 ### K6 - Load Testing
 
@@ -68,7 +68,7 @@ A seguir vemos o resultado de um simples teste de carga em nossa api, utilizando
 
 À **esquerda** o endpoint que faz o lançamento de uma exceção, e à **direita** os resultados do endpoint trata a validação sem lançar exceções.
 
-![benchmark](images/load_tests.png)
+![benchmark](images/k6_loading_tests.png)
 
 ## Conclusão
 
